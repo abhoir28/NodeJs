@@ -1,0 +1,23 @@
+{
+  "name": "mongo_node_conn_template",
+  "version": "1.0.0",
+  "description": "mongodb connection with nodejs using MOngoClient",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --legacy-watch src/app.js --exec babel-node"
+  },
+  "author": "Amit",
+  "license": "ISC",
+  "dependencies": {
+    "graphql-type-json": "^0.2.2",
+    "graphql-yoga": "^1.17.4",
+    "mongodb": "^3.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.0.16",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.18.10"
+  }
+}
